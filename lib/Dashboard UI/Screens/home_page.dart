@@ -1,8 +1,8 @@
-import 'package:example/Components/containers.dart';
-import 'package:example/Components/drawer.dart';
-import 'package:example/Components/pie_chart.dart';
-import 'package:example/Components/progress_bar.dart';
-import 'package:example/Components/summary_container.dart';
+import 'package:example/Dashboard%20UI/Components/containers.dart';
+import 'package:example/Dashboard%20UI/Components/drawer.dart';
+import 'package:example/Dashboard%20UI/Components/pie_chart.dart';
+import 'package:example/Dashboard%20UI/Components/progress_bar.dart';
+import 'package:example/Dashboard%20UI/Components/summary_container.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
