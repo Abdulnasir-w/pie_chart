@@ -15,7 +15,10 @@ class _AuctionScreenState extends State<AuctionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Auction List"),
+        title: const Text(
+          "Auction List",
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+        ),
         centerTitle: true,
       ),
       body: FutureBuilder<List<Auction>>(

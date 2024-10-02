@@ -11,7 +11,10 @@ class DetailAuction extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        title: Text(auction.title),
+        title: Text(
+          auction.title,
+          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+        ),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -76,7 +79,13 @@ class DetailAuction extends StatelessWidget {
               const SizedBox(height: 16.0),
               auction.bids.isNotEmpty
                   ? buildBidList()
-                  : const Text("No Bids Available"),
+                  : const Text(
+                      "No Bids Available",
+                      textAlign: TextAlign.center,
+                      style:
+                          TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+                    ),
+              const SizedBox(height: 16.0),
             ],
           ),
         ),
