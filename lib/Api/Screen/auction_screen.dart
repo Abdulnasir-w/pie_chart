@@ -44,6 +44,7 @@ class _AuctionScreenState extends State<AuctionScreen> {
                       color: Colors.amber,
                       child: ListTile(
                         leading: CircleAvatar(
+                            // ignore: unnecessary_null_comparison
                             child: auction.image != null
                                 ? Image.network(
                                     auction.image,

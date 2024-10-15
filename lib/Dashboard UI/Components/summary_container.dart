@@ -5,10 +5,10 @@ class SummaryContainer extends StatelessWidget {
   final Widget child;
 
   const SummaryContainer({
-    Key? key,
+    super.key,
     required this.title,
     required this.child,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
