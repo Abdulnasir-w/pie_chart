@@ -52,6 +52,9 @@ class _HiveHomeScreenState extends State<HiveHomeScreen> {
     setState(() {
       services.update(index, person);
     });
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(content: Text("updated Successfully")),
+    );
   }
 
   @override
